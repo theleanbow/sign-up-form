@@ -36,5 +36,5 @@ input {
   border-color: #e5e7eb;
 }
 input:focus {
-  border: red;
+  border-color: rgb(60, 60, 210);
 }
