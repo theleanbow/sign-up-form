@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Form</title>
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <!-- font import -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,5 +15,64 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <aside>
+        <div class="logo">
+          <img src="images/NH_Logo.png" alt="NH Logo" class="logoImage" />
+          <p class="logoText">NovelHood</p>
+        </div>
+      </aside>
+      <article>
+        <h1>
+          Welcome to NovelHood. You can read novels here for free without any
+          payments. It's free now and will be free forever. NO Pearls, Only
+          Novels. <br />
+          Sign Up to get Started
+        </h1>
+        <form action="#">
+          Let's do this!
+          <fieldset>
+            <legend>Sign Up Form</legend>
+            <section class="formRow">
+              <label for="firstName">First Name</label>
+              <!-- <div>First Name</div> -->
+              <div>
+                <input
+                  type="text"
+                  name="firstName"
+                  id="firstName"
+                  maxlength="15"
+                />
+              </div>
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" id="lastName" maxlength="15" />
+              <br />
+            </section>
+            <section class="formRow">
+              <label for="email">Email</label>
+
+              <input type="email" name="email" id="email" />
+              <label for="phone">Phone Number</label>
+              <input type="tel" name="phone" id="phone" />
+            </section>
+            <section class="formRow">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+              <label for="passwordConfirm">Confirm Password</label
+              ><input
+                type="password"
+                name="passwordConfirm"
+                id="passwordConfirm"
+              />
+            </section>
+          </fieldset>
+        </form>
+        <button type="submit">Create Account</button>
+        Already have an account? <a href="login">Log in</a>
+      </article>
+    </main>
+   
+    </div>
+  </body>
 </html>
