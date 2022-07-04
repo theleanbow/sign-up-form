@@ -13,7 +13,7 @@ main {
 aside {
   flex: 33%;
   background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
-  height: 100vh;
+  height: 98vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -87,7 +87,8 @@ input:valid {
 }
 input:focus {
   outline: none;
-  border-color: #e5e7eb;
+  border-color: blue;
+  box-shadow: 5px 5px rgb(0, 0, 255, 0.3);
 }
 #login {
   color: var(--accent-color);
