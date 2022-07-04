@@ -1,5 +1,10 @@
+@font-face {
+  font-family: odin-bold;
+  src: url(fonts/Norse-Bold.otf);
+}
 :root {
   font-size: 20px;
+  --accent-color: #596d48;
 }
 main {
   display: flex;
@@ -7,10 +12,18 @@ main {
 }
 aside {
   flex: 33%;
-  background-image: url(images/kelly-sikkema-SiOW0btU0zk.jpg);
+  background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
   height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#know {
+  font-style: italic;
 }
 article {
+  margin: auto;
+  /* width: 66vw; */
+  flex: 66%;
   background-color: #fff;
 }
 .logo {
@@ -19,22 +32,63 @@ article {
   position: relative;
   top: 20vh;
   justify-content: center;
-  gap: 2vw;
+  align-items: center;
 }
 .logoImage {
-  width: 100px;
+  width: 130px;
+  height: 180px;
 }
 .logoText {
-  font-family: "Mukta", sans-serif;
+  font-family: "odin-bold", sans-serif;
   color: white;
-  font-size: 1.8rem;
+  font-size: 4rem;
+  align-self: center;
+}
+/* sign up form */
+h2 {
+  margin-bottom: 20px;
+}
+legend {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+}
+.formRow {
+  margin-bottom: 10px;
 }
 button {
-  background-color: #596d48;
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 10px;
+  border-radius: 10px;
+  color: #fff;
 }
 input {
   border-color: #e5e7eb;
+  width: 40%;
+  height: 20px;
+  border-radius: 5px;
+}
+section {
+  display: flex;
+}
+section > div {
+  display: block;
+  width: 40%;
+}
+
+input:invalid {
+  border-color: red;
+}
+input:valid {
+  border-color: lime;
 }
 input:focus {
-  border-color: rgb(60, 60, 210);
+  outline: none;
+  border-color: #e5e7eb;
+}
+#login {
+  color: var(--accent-color);
 }
