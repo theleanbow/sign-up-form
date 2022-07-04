@@ -4,4 +4,4 @@ See [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermed
 Live Site Link can be found [here](https://theleanbow.github.io/sign-up-form/)
 
 
-!(https://github.com/theleanbow/sign-up-form/blob/main/sign-up-form.png)
+![assignment image](https://github.com/theleanbow/sign-up-form/blob/main/sign-up-form.png)
