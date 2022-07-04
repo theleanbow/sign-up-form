@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet" />
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -46,7 +47,7 @@
                             </div>
                             <!-- <div>First Name</div> -->
                             <div>
-                                <input type="text" name="firstName" id="firstName" maxlength="15" />
+                                <input type="text" name="firstName" id="firstName" maxlength="15" placeholder=" " />
                             </div>
                         </div>
                         <div>
@@ -54,7 +55,7 @@
                                 <label for="lastName">Last Name</label>
                             </div>
                             <div>
-                                <input type="text" name="lastName" id="lastName" maxlength="15" />
+                                <input type="text" name="lastName" id="lastName" maxlength="15" placeholder=" " />
                             </div>
                         </div>
                     </section>
@@ -66,7 +67,7 @@
                             <div>
 
                                 <input type="email" name="email" id="email" required
-                                    pattern="^\w{3,}@[a-z]{3,}(\.[a-z]{2,})+$" />
+                                    pattern="^\w{3,}@[a-z]{3,}(\.[a-z]{2,})+$" placeholder=" " />
                             </div>
                         </div>
 
@@ -77,7 +78,7 @@
                             </div>
                             <div>
 
-                                <input type="tel" name="phone" id="phone" />
+                                <input type="tel" name="phone" id="phone" placeholder=" " />
                             </div>
                         </div>
 
@@ -89,7 +90,9 @@
                             </div>
                             <div>
 
-                                <input type="password" name="password" id="password" required minlength="8" />
+                                <input type="password" name="password" id="password" required
+                                    pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
+                                    placeholder=" " />
                             </div>
                         </div>
                         <div>
@@ -98,7 +101,8 @@
                             </div>
                             <div>
                                 <input type="password" name="passwordConfirm" id="passwordConfirm" required
-                                    minlength="8" />
+                                    pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$"
+                                    placeholder=" " />
                             </div>
                         </div>
                         </div>

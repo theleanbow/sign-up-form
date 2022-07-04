@@ -92,3 +92,6 @@ input:focus {
 #login {
   color: var(--accent-color);
 }
+input:placeholder-shown {
+  border-color: black;
+}
