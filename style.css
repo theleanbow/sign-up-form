@@ -3,6 +3,7 @@
   src: url(fonts/Norse-Bold.otf);
 }
 :root {
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   --accent-color: #596d48;
 }
