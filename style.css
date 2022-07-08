@@ -88,7 +88,7 @@ input:valid {
 input:focus {
   outline: none;
   border-color: blue;
-  box-shadow: 5px 5px rgb(0, 0, 255, 0.3);
+  /* box-shadow: 5px 5px rgb(0, 0, 255, 0.3); */
 }
 #login {
   color: var(--accent-color);
