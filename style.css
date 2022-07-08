@@ -53,6 +53,10 @@ legend {
   font-weight: 700;
   font-style: italic;
 }
+fieldset {
+  /* display: inline-block; */
+  width: 50vw;
+}
 .formRow {
   margin-bottom: 10px;
 }
@@ -67,7 +71,7 @@ button {
 }
 input {
   border-color: #e5e7eb;
-  width: 40%;
+  width: 60%;
   height: 20px;
   border-radius: 5px;
 }
@@ -76,7 +80,7 @@ section {
 }
 section > div {
   display: block;
-  width: 40%;
+  width: 60%;
 }
 
 input:invalid {
@@ -95,4 +99,9 @@ input:focus {
 }
 input:placeholder-shown {
   border-color: black;
+}
+
+#createAccount:hover {
+  background-color: #fff;
+  color: var(--accent-color);
 }
