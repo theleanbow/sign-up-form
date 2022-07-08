@@ -103,6 +103,6 @@ input:placeholder-shown {
 }
 
 #createAccount:hover {
-  background-color: #fff;
-  color: var(--accent-color);
+  /* background-color: #30a96f; */
+  background-color: #88b263;
 }
